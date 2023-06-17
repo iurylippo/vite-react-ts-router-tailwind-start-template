@@ -2,10 +2,10 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export function Main() {
-	const navigate = useNavigate();
+  const navigate = useNavigate();
 
-	useEffect(() => {
-		navigate('/login');
-	}, []);
-	return <></>;
+  useEffect(() => {
+    navigate('/login');
+  }, []);
+  return <></>;
 }

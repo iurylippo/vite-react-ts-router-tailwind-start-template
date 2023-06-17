@@ -3,5 +3,5 @@ import '@/styles/global.css';
 import { RouterProvider } from 'react-router-dom';
 
 export function App() {
-	return <RouterProvider router={router} />;
+  return <RouterProvider router={router} />;
 }

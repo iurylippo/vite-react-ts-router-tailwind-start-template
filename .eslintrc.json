@@ -24,7 +24,7 @@
         "singleQuote": true,
         "tabWidth": 2,
         "indentStyle": "space",
-        "useTabs": true,
+        "useTabs": false,
         "trailingComma": "es5"
       }
     ],

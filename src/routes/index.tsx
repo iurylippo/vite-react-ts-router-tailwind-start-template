@@ -7,22 +7,22 @@ import { Main } from '@/pages/main';
 import { Router } from './router';
 
 export const router = createBrowserRouter([
-	{
-		path: '/',
-		element: <Router isPrivate={false} page={Main} />,
-		errorElement: <ErrorPage />,
-	},
-	{
-		path: '/login',
-		element: <Router isPrivate={false} page={Login} />,
-	},
-	{
-		element: <Layout />,
-		children: [
-			{
-				path: '/home',
-				element: <Router page={Home} />,
-			},
-		],
-	},
+  {
+    path: '/',
+    element: <Router isPrivate={false} page={Main} />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/login',
+    element: <Router isPrivate={false} page={Login} />,
+  },
+  {
+    element: <Layout />,
+    children: [
+      {
+        path: '/home',
+        element: <Router page={Home} />,
+      },
+    ],
+  },
 ]);
